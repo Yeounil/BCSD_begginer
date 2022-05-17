@@ -22,12 +22,12 @@ public class UserServiceImpl implements UserService{
     }
 
     @Override
-    public User updateUser(long id){
+    public User updateUser(Long id){
         UserMapper.updateUserById(id);
     }
 
     @Override
-    public User deleteUser(long id){
+    public User deleteUser(Long id){
         UserMapper.deleteUserById(id);
     }
 }
